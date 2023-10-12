@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "singularName": "career",
+    "pluralName": "careers",
+    "displayName": "Career"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "job": {
+      "displayName": "Job Profile",
+      "type": "component",
+      "repeatable": true,
+      "component": "career.job-profile"
+    }
+  }
+}

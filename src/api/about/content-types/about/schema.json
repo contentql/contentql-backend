@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section_two_subheader": {
+      "type": "text"
+    },
+    "section_two_header": {
+      "type": "text"
+    },
+    "card_data": {
+      "displayName": "About Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.about-card"
+    }
+  }
+}

@@ -7,7 +7,7 @@
       "options": {
         "from": {
           "name": "Administration Panel",
-          "email": "akhil@contentql.io"
+          "email": "no-reply@strapi.io"
         },
         "response_email": "",
         "object": "Reset password",
@@ -20,7 +20,7 @@
       "options": {
         "from": {
           "name": "Administration Panel",
-          "email": "akhil@contentql.io"
+          "email": "no-reply@strapi.io"
         },
         "response_email": "",
         "object": "Account confirmation",

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_about_cards",
+  "info": {
+    "displayName": "About Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "step": {
+      "type": "integer",
+      "min": 0,
+      "default": 1
+    }
+  }
+}

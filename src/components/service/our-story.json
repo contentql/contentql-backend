@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_service_our_stories",
+  "info": {
+    "displayName": "our story"
+  },
+  "options": {},
+  "attributes": {
+    "our_story": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.common-list"
+    }
+  }
+}

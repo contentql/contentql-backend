@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pricing_pricings",
+  "info": {
+    "displayName": "Pricing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "license": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "features": {
+      "displayName": "Plan Features",
+      "type": "component",
+      "repeatable": true,
+      "component": "list.plan-features"
+    },
+    "common": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.common-features"
+    }
+  }
+}

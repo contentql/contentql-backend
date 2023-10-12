@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_core_values",
+  "info": {
+    "displayName": "Core value",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "core_value": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.common-list"
+    }
+  }
+}

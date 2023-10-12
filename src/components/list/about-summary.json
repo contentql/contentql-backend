@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_list_about_summaries",
+  "info": {
+    "displayName": "about summary"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "total": {
+      "type": "integer"
+    }
+  }
+}

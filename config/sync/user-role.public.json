@@ -4,6 +4,21 @@
   "type": "public",
   "permissions": [
     {
+      "action": "api::about.about.find"
+    },
+    {
+      "action": "api::homep.homep.find"
+    },
+    {
+      "action": "api::pricing.pricing.find"
+    },
+    {
+      "action": "api::service.service.find"
+    },
+    {
+      "action": "api::testimonial.testimonial.find"
+    },
+    {
       "action": "plugin::users-permissions.auth.callback"
     },
     {
