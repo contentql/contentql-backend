@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_about_about_heroes",
+  "info": {
+    "displayName": "About Hero"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description_1": {
+      "type": "text"
+    },
+    "description_2": {
+      "type": "text"
+    },
+    "summary": {
+      "displayName": "about summary",
+      "type": "component",
+      "repeatable": true,
+      "component": "list.about-summary"
+    }
+  }
+}

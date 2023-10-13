@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_list_common_features",
+  "info": {
+    "displayName": "common Features",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "string"
+    }
+  }
+}

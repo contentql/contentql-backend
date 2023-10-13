@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "servicesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.service-list"
+    },
+    "working": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.timeline"
+    }
+  }
+}

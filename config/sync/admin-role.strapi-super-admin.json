@@ -4,6 +4,423 @@
   "description": "Super Admins can access and manage all features and settings.",
   "permissions": [
     {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::about.about",
+      "properties": {
+        "fields": [
+          "section_two_subheader",
+          "section_two_header",
+          "card_data.title",
+          "card_data.description",
+          "card_data.step"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::about.about",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::about.about",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::about.about",
+      "properties": {
+        "fields": [
+          "section_two_subheader",
+          "section_two_header",
+          "card_data.title",
+          "card_data.description",
+          "card_data.step"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::about.about",
+      "properties": {
+        "fields": [
+          "section_two_subheader",
+          "section_two_header",
+          "card_data.title",
+          "card_data.description",
+          "card_data.step"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::career.career",
+      "properties": {
+        "fields": [
+          "job.Tag",
+          "job.profile",
+          "job.location",
+          "job.type"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::career.career",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::career.career",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::career.career",
+      "properties": {
+        "fields": [
+          "job.Tag",
+          "job.profile",
+          "job.location",
+          "job.type"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::career.career",
+      "properties": {
+        "fields": [
+          "job.Tag",
+          "job.profile",
+          "job.location",
+          "job.type"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::company-fact.company-fact",
+      "properties": {
+        "fields": [
+          "facts.title",
+          "facts.total"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::company-fact.company-fact",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::company-fact.company-fact",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::company-fact.company-fact",
+      "properties": {
+        "fields": [
+          "facts.title",
+          "facts.total"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::company-fact.company-fact",
+      "properties": {
+        "fields": [
+          "facts.title",
+          "facts.total"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::homep.homep",
+      "properties": {
+        "fields": [
+          "services.servicesList.title",
+          "services.servicesList.description",
+          "services.servicesList.long_description",
+          "services.title",
+          "services.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::homep.homep",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::homep.homep",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::homep.homep",
+      "properties": {
+        "fields": [
+          "services.servicesList.title",
+          "services.servicesList.description",
+          "services.servicesList.long_description",
+          "services.title",
+          "services.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::homep.homep",
+      "properties": {
+        "fields": [
+          "services.servicesList.title",
+          "services.servicesList.description",
+          "services.servicesList.long_description",
+          "services.title",
+          "services.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::pricing.pricing",
+      "properties": {
+        "fields": [
+          "pricing.license",
+          "pricing.price",
+          "pricing.features.title",
+          "pricing.features.disabled",
+          "pricing.common.feature"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::pricing.pricing",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::pricing.pricing",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::pricing.pricing",
+      "properties": {
+        "fields": [
+          "pricing.license",
+          "pricing.price",
+          "pricing.features.title",
+          "pricing.features.disabled",
+          "pricing.common.feature"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::pricing.pricing",
+      "properties": {
+        "fields": [
+          "pricing.license",
+          "pricing.price",
+          "pricing.features.title",
+          "pricing.features.disabled",
+          "pricing.common.feature"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "servicesList.title",
+          "servicesList.description",
+          "servicesList.long_description",
+          "working.list.title",
+          "working.list.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::service.service",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::service.service",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "servicesList.title",
+          "servicesList.description",
+          "servicesList.long_description",
+          "working.list.title",
+          "working.list.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "servicesList.title",
+          "servicesList.description",
+          "servicesList.long_description",
+          "working.list.title",
+          "working.list.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::team-member.team-member",
+      "properties": {
+        "fields": [
+          "people.role",
+          "people.name",
+          "people.photo",
+          "people.team"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::team-member.team-member",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::team-member.team-member",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::team-member.team-member",
+      "properties": {
+        "fields": [
+          "people.role",
+          "people.name",
+          "people.photo",
+          "people.team"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::team-member.team-member",
+      "properties": {
+        "fields": [
+          "people.role",
+          "people.name",
+          "people.photo",
+          "people.team"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::testimonial.testimonial",
+      "properties": {
+        "fields": [
+          "testimonial.name",
+          "testimonial.role",
+          "testimonial.ratingNumber",
+          "testimonial.review",
+          "testimonial.thumbnail"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::testimonial.testimonial",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::testimonial.testimonial",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::testimonial.testimonial",
+      "properties": {
+        "fields": [
+          "testimonial.name",
+          "testimonial.role",
+          "testimonial.ratingNumber",
+          "testimonial.review",
+          "testimonial.thumbnail"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::testimonial.testimonial",
+      "properties": {
+        "fields": [
+          "testimonial.name",
+          "testimonial.role",
+          "testimonial.ratingNumber",
+          "testimonial.review",
+          "testimonial.thumbnail"
+        ]
+      },
+      "conditions": []
+    },
+    {
       "action": "admin::api-tokens.access",
       "subject": null,
       "properties": {},

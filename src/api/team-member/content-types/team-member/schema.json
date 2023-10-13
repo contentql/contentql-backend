@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_members",
+  "info": {
+    "singularName": "team-member",
+    "pluralName": "team-members",
+    "displayName": "Team Member",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "people": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.team-members"
+    }
+  }
+}

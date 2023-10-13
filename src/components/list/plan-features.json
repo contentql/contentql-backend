@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_list_plan_features",
+  "info": {
+    "displayName": "Plan Features",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "disabled": {
+      "type": "boolean"
+    }
+  }
+}

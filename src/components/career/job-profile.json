@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_career_job_profiles",
+  "info": {
+    "displayName": "Job Profile",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Tag": {
+      "type": "enumeration",
+      "enum": [
+        "Digital Marketing",
+        "QA",
+        "Front end(React)",
+        "Backend(NodeJs)"
+      ]
+    },
+    "profile": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Full-Time",
+        "Part-Time"
+      ]
+    }
+  }
+}

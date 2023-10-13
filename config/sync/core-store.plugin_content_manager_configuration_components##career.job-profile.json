@@ -1,0 +1,115 @@
+{
+  "key": "plugin_content_manager_configuration_components::career.job-profile",
+  "value": {
+    "uid": "career.job-profile",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "profile",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Tag": {
+        "edit": {
+          "label": "Tag",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Tag",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "profile": {
+        "edit": {
+          "label": "profile",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "profile",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "location": {
+        "edit": {
+          "label": "location",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "location",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "type": {
+        "edit": {
+          "label": "type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "type",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Tag",
+        "profile",
+        "location"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Tag",
+            "size": 6
+          },
+          {
+            "name": "profile",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "location",
+            "size": 6
+          },
+          {
+            "name": "type",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

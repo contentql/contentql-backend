@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_facts",
+  "info": {
+    "singularName": "company-fact",
+    "pluralName": "company-facts",
+    "displayName": "Company Fact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "facts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.about-summary"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_service_timelines",
+  "info": {
+    "displayName": "Timeline"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "displayName": "Common List",
+      "type": "component",
+      "repeatable": true,
+      "component": "list.common-list"
+    }
+  }
+}

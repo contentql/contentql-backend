@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_service_services",
+  "info": {
+    "displayName": "Our Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "servicesList": {
+      "displayName": "service list",
+      "type": "component",
+      "repeatable": true,
+      "component": "list.service-list"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
