@@ -62,18 +62,18 @@
           "sortable": false
         }
       },
-      "social_links": {
+      "team": {
         "edit": {
-          "label": "social_links",
+          "label": "team",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "social_links",
-          "searchable": false,
-          "sortable": false
+          "label": "team",
+          "searchable": true,
+          "sortable": true
         }
       }
     },
@@ -103,8 +103,8 @@
         ],
         [
           {
-            "name": "social_links",
-            "size": 12
+            "name": "team",
+            "size": 6
           }
         ]
       ]

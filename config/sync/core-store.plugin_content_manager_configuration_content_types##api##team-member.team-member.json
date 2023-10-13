@@ -1,7 +1,7 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::about.about",
+  "key": "plugin_content_manager_configuration_content_types::api::team-member.team-member",
   "value": {
-    "uid": "api::about.about",
+    "uid": "api::team-member.team-member",
     "settings": {
       "bulkable": true,
       "filterable": true,
@@ -20,44 +20,16 @@
           "sortable": true
         }
       },
-      "section_two_subheader": {
+      "people": {
         "edit": {
-          "label": "section_two_subheader",
+          "label": "people",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "section_two_subheader",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "section_two_header": {
-        "edit": {
-          "label": "section_two_header",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "section_two_header",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "card_data": {
-        "edit": {
-          "label": "card_data",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "card_data",
+          "label": "people",
           "searchable": false,
           "sortable": false
         }
@@ -124,24 +96,14 @@
     "layouts": {
       "list": [
         "id",
+        "people",
         "createdAt",
-        "updatedAt",
-        "section_two_subheader"
+        "updatedAt"
       ],
       "edit": [
         [
           {
-            "name": "section_two_subheader",
-            "size": 6
-          },
-          {
-            "name": "section_two_header",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "card_data",
+            "name": "people",
             "size": 12
           }
         ]

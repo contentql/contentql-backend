@@ -8,21 +8,11 @@
       "subject": "api::about.about",
       "properties": {
         "fields": [
-          "hero.title",
-          "hero.description_1",
-          "hero.description_2",
-          "hero.summary.title",
-          "hero.summary.total",
-          "team.role",
-          "team.name",
-          "team.photo",
-          "team.social_links.facebook",
-          "team.social_links.linkedin",
-          "team.social_links.twitter",
-          "story.our_story.title",
-          "story.our_story.description",
-          "core.core_value.title",
-          "core.core_value.description"
+          "section_two_subheader",
+          "section_two_header",
+          "card_data.title",
+          "card_data.description",
+          "card_data.step"
         ]
       },
       "conditions": []
@@ -44,21 +34,11 @@
       "subject": "api::about.about",
       "properties": {
         "fields": [
-          "hero.title",
-          "hero.description_1",
-          "hero.description_2",
-          "hero.summary.title",
-          "hero.summary.total",
-          "team.role",
-          "team.name",
-          "team.photo",
-          "team.social_links.facebook",
-          "team.social_links.linkedin",
-          "team.social_links.twitter",
-          "story.our_story.title",
-          "story.our_story.description",
-          "core.core_value.title",
-          "core.core_value.description"
+          "section_two_subheader",
+          "section_two_header",
+          "card_data.title",
+          "card_data.description",
+          "card_data.step"
         ]
       },
       "conditions": []
@@ -68,21 +48,107 @@
       "subject": "api::about.about",
       "properties": {
         "fields": [
-          "hero.title",
-          "hero.description_1",
-          "hero.description_2",
-          "hero.summary.title",
-          "hero.summary.total",
-          "team.role",
-          "team.name",
-          "team.photo",
-          "team.social_links.facebook",
-          "team.social_links.linkedin",
-          "team.social_links.twitter",
-          "story.our_story.title",
-          "story.our_story.description",
-          "core.core_value.title",
-          "core.core_value.description"
+          "section_two_subheader",
+          "section_two_header",
+          "card_data.title",
+          "card_data.description",
+          "card_data.step"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::career.career",
+      "properties": {
+        "fields": [
+          "job.Tag",
+          "job.profile",
+          "job.location",
+          "job.type"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::career.career",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::career.career",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::career.career",
+      "properties": {
+        "fields": [
+          "job.Tag",
+          "job.profile",
+          "job.location",
+          "job.type"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::career.career",
+      "properties": {
+        "fields": [
+          "job.Tag",
+          "job.profile",
+          "job.location",
+          "job.type"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::company-fact.company-fact",
+      "properties": {
+        "fields": [
+          "facts.title",
+          "facts.total"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::company-fact.company-fact",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::company-fact.company-fact",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::company-fact.company-fact",
+      "properties": {
+        "fields": [
+          "facts.title",
+          "facts.total"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::company-fact.company-fact",
+      "properties": {
+        "fields": [
+          "facts.title",
+          "facts.total"
         ]
       },
       "conditions": []
@@ -251,13 +317,65 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::team-member.team-member",
+      "properties": {
+        "fields": [
+          "people.role",
+          "people.name",
+          "people.photo",
+          "people.team"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::team-member.team-member",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::team-member.team-member",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::team-member.team-member",
+      "properties": {
+        "fields": [
+          "people.role",
+          "people.name",
+          "people.photo",
+          "people.team"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::team-member.team-member",
+      "properties": {
+        "fields": [
+          "people.role",
+          "people.name",
+          "people.photo",
+          "people.team"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::testimonial.testimonial",
       "properties": {
         "fields": [
           "testimonial.name",
           "testimonial.role",
           "testimonial.ratingNumber",
-          "testimonial.review"
+          "testimonial.review",
+          "testimonial.thumbnail"
         ]
       },
       "conditions": []
@@ -282,7 +400,8 @@
           "testimonial.name",
           "testimonial.role",
           "testimonial.ratingNumber",
-          "testimonial.review"
+          "testimonial.review",
+          "testimonial.thumbnail"
         ]
       },
       "conditions": []
@@ -295,7 +414,8 @@
           "testimonial.name",
           "testimonial.role",
           "testimonial.ratingNumber",
-          "testimonial.review"
+          "testimonial.review",
+          "testimonial.thumbnail"
         ]
       },
       "conditions": []

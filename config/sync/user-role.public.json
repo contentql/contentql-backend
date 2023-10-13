@@ -7,6 +7,12 @@
       "action": "api::about.about.find"
     },
     {
+      "action": "api::career.career.find"
+    },
+    {
+      "action": "api::company-fact.company-fact.find"
+    },
+    {
       "action": "api::homep.homep.find"
     },
     {
@@ -14,6 +20,9 @@
     },
     {
       "action": "api::service.service.find"
+    },
+    {
+      "action": "api::team-member.team-member.find"
     },
     {
       "action": "api::testimonial.testimonial.find"

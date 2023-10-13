@@ -1,7 +1,7 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::about.about",
+  "key": "plugin_content_manager_configuration_content_types::api::company-fact.company-fact",
   "value": {
-    "uid": "api::about.about",
+    "uid": "api::company-fact.company-fact",
     "settings": {
       "bulkable": true,
       "filterable": true,
@@ -20,44 +20,16 @@
           "sortable": true
         }
       },
-      "section_two_subheader": {
+      "facts": {
         "edit": {
-          "label": "section_two_subheader",
+          "label": "facts",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "section_two_subheader",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "section_two_header": {
-        "edit": {
-          "label": "section_two_header",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "section_two_header",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "card_data": {
-        "edit": {
-          "label": "card_data",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "card_data",
+          "label": "facts",
           "searchable": false,
           "sortable": false
         }
@@ -125,23 +97,12 @@
       "list": [
         "id",
         "createdAt",
-        "updatedAt",
-        "section_two_subheader"
+        "facts"
       ],
       "edit": [
         [
           {
-            "name": "section_two_subheader",
-            "size": 6
-          },
-          {
-            "name": "section_two_header",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "card_data",
+            "name": "facts",
             "size": 12
           }
         ]
