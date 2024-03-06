@@ -7,10 +7,19 @@
       "action": "api::about.about.find"
     },
     {
+      "action": "api::blog.blog.find"
+    },
+    {
+      "action": "api::blog.blog.findOne"
+    },
+    {
       "action": "api::career.career.find"
     },
     {
       "action": "api::company-fact.company-fact.find"
+    },
+    {
+      "action": "api::contact.contact.find"
     },
     {
       "action": "api::homep.homep.find"

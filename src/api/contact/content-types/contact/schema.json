@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "branches": {
+      "displayName": "Branches",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.branches"
+    }
+  }
+}
