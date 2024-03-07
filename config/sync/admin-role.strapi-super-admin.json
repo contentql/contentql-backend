@@ -59,6 +59,60 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::blog.blog",
+      "properties": {
+        "fields": [
+          "slug",
+          "image",
+          "tags",
+          "title",
+          "excerpt"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::blog.blog",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::blog.blog",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::blog.blog",
+      "properties": {
+        "fields": [
+          "slug",
+          "image",
+          "tags",
+          "title",
+          "excerpt"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::blog.blog",
+      "properties": {
+        "fields": [
+          "slug",
+          "image",
+          "tags",
+          "title",
+          "excerpt"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::career.career",
       "properties": {
         "fields": [
@@ -149,6 +203,63 @@
         "fields": [
           "facts.title",
           "facts.total"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::contact.contact",
+      "properties": {
+        "fields": [
+          "heading",
+          "branches.title",
+          "branches.call_us",
+          "branches.mail_us",
+          "branches.location",
+          "branches.map"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::contact.contact",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::contact.contact",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::contact.contact",
+      "properties": {
+        "fields": [
+          "heading",
+          "branches.title",
+          "branches.call_us",
+          "branches.mail_us",
+          "branches.location",
+          "branches.map"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::contact.contact",
+      "properties": {
+        "fields": [
+          "heading",
+          "branches.title",
+          "branches.call_us",
+          "branches.mail_us",
+          "branches.location",
+          "branches.map"
         ]
       },
       "conditions": []

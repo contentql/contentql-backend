@@ -1,0 +1,135 @@
+{
+  "key": "plugin_content_manager_configuration_components::contact.branches",
+  "value": {
+    "uid": "contact.branches",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "call_us": {
+        "edit": {
+          "label": "call_us",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "call_us",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "mail_us": {
+        "edit": {
+          "label": "mail_us",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "mail_us",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "location": {
+        "edit": {
+          "label": "location",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "location",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "map": {
+        "edit": {
+          "label": "map",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "map",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "call_us",
+        "mail_us"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 6
+          },
+          {
+            "name": "call_us",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "mail_us",
+            "size": 6
+          },
+          {
+            "name": "location",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "map",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
