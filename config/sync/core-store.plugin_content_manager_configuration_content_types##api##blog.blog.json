@@ -90,6 +90,62 @@
           "sortable": true
         }
       },
+      "content": {
+        "edit": {
+          "label": "content",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "content",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "creator_name": {
+        "edit": {
+          "label": "creator_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "creator_name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "read_time": {
+        "edit": {
+          "label": "read_time",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "read_time",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "creator_image": {
+        "edit": {
+          "label": "creator_image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "creator_image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -150,16 +206,26 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "slug",
-        "image",
-        "tags"
-      ],
       "edit": [
         [
           {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "tags",
+            "size": 6
+          },
+          {
             "name": "slug",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "excerpt",
             "size": 6
           },
           {
@@ -169,20 +235,32 @@
         ],
         [
           {
-            "name": "tags",
+            "name": "creator_name",
             "size": 6
           },
           {
-            "name": "title",
+            "name": "read_time",
             "size": 6
           }
         ],
         [
           {
-            "name": "excerpt",
+            "name": "creator_image",
             "size": 6
           }
+        ],
+        [
+          {
+            "name": "content",
+            "size": 12
+          }
         ]
+      ],
+      "list": [
+        "id",
+        "slug",
+        "image",
+        "tags"
       ]
     }
   },

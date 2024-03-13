@@ -76,18 +76,18 @@
           "sortable": true
         }
       },
-      "map": {
+      "address": {
         "edit": {
-          "label": "map",
+          "label": "address",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "map",
-          "searchable": false,
-          "sortable": false
+          "label": "address",
+          "searchable": true,
+          "sortable": true
         }
       }
     },
@@ -121,7 +121,7 @@
         ],
         [
           {
-            "name": "map",
+            "name": "address",
             "size": 6
           }
         ]

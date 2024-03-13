@@ -66,7 +66,11 @@
           "image",
           "tags",
           "title",
-          "excerpt"
+          "excerpt",
+          "content",
+          "creator_name",
+          "read_time",
+          "creator_image"
         ]
       },
       "conditions": []
@@ -92,7 +96,11 @@
           "image",
           "tags",
           "title",
-          "excerpt"
+          "excerpt",
+          "content",
+          "creator_name",
+          "read_time",
+          "creator_image"
         ]
       },
       "conditions": []
@@ -106,7 +114,11 @@
           "image",
           "tags",
           "title",
-          "excerpt"
+          "excerpt",
+          "content",
+          "creator_name",
+          "read_time",
+          "creator_image"
         ]
       },
       "conditions": []
@@ -217,7 +229,7 @@
           "branches.call_us",
           "branches.mail_us",
           "branches.location",
-          "branches.map"
+          "branches.address"
         ]
       },
       "conditions": []
@@ -244,7 +256,7 @@
           "branches.call_us",
           "branches.mail_us",
           "branches.location",
-          "branches.map"
+          "branches.address"
         ]
       },
       "conditions": []
@@ -259,7 +271,7 @@
           "branches.call_us",
           "branches.mail_us",
           "branches.location",
-          "branches.map"
+          "branches.address"
         ]
       },
       "conditions": []
