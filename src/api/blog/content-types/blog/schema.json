@@ -34,6 +34,25 @@
     },
     "excerpt": {
       "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "creator_name": {
+      "type": "string"
+    },
+    "read_time": {
+      "type": "string"
+    },
+    "creator_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
