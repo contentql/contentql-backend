@@ -67,7 +67,10 @@
           "tags",
           "title",
           "excerpt",
-          "content"
+          "content",
+          "creator_name",
+          "read_time",
+          "creator_image"
         ]
       },
       "conditions": []
@@ -94,7 +97,10 @@
           "tags",
           "title",
           "excerpt",
-          "content"
+          "content",
+          "creator_name",
+          "read_time",
+          "creator_image"
         ]
       },
       "conditions": []
@@ -109,7 +115,10 @@
           "tags",
           "title",
           "excerpt",
-          "content"
+          "content",
+          "creator_name",
+          "read_time",
+          "creator_image"
         ]
       },
       "conditions": []
