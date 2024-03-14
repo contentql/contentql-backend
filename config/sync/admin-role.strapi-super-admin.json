@@ -229,7 +229,9 @@
           "branches.call_us",
           "branches.mail_us",
           "branches.location",
-          "branches.address"
+          "branches.address",
+          "faqs.question",
+          "faqs.answer"
         ]
       },
       "conditions": []
@@ -256,7 +258,9 @@
           "branches.call_us",
           "branches.mail_us",
           "branches.location",
-          "branches.address"
+          "branches.address",
+          "faqs.question",
+          "faqs.answer"
         ]
       },
       "conditions": []
@@ -271,7 +275,9 @@
           "branches.call_us",
           "branches.mail_us",
           "branches.location",
-          "branches.address"
+          "branches.address",
+          "faqs.question",
+          "faqs.answer"
         ]
       },
       "conditions": []

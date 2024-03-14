@@ -48,6 +48,20 @@
           "sortable": false
         }
       },
+      "faqs": {
+        "edit": {
+          "label": "faqs",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "faqs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -124,6 +138,12 @@
         [
           {
             "name": "branches",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "faqs",
             "size": 12
           }
         ]
