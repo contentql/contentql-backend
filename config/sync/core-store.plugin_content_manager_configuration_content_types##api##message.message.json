@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::homep.homep",
+  "key": "plugin_content_manager_configuration_content_types::api::message.message",
   "value": {
-    "uid": "api::homep.homep",
+    "uid": "api::message.message",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "id",
-      "defaultSortBy": "id",
+      "mainField": "full_name",
+      "defaultSortBy": "full_name",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -20,60 +20,74 @@
           "sortable": true
         }
       },
-      "sub_heading": {
+      "full_name": {
         "edit": {
-          "label": "sub_heading",
+          "label": "full_name",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "sub_heading",
+          "label": "full_name",
           "searchable": true,
           "sortable": true
         }
       },
-      "what_makes_different_heading": {
+      "email_address": {
         "edit": {
-          "label": "what_makes_different_heading",
+          "label": "email_address",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "what_makes_different_heading",
+          "label": "email_address",
           "searchable": true,
           "sortable": true
         }
       },
-      "service_heading": {
+      "mobile_number": {
         "edit": {
-          "label": "service_heading",
+          "label": "mobile_number",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "service_heading",
+          "label": "mobile_number",
           "searchable": true,
           "sortable": true
         }
       },
-      "home_service": {
+      "city": {
         "edit": {
-          "label": "home_service",
+          "label": "city",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "home_service",
-          "searchable": false,
-          "sortable": false
+          "label": "city",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "message": {
+        "edit": {
+          "label": "message",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "message",
+          "searchable": true,
+          "sortable": true
         }
       },
       "createdAt": {
@@ -136,35 +150,39 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt",
-        "createdBy"
-      ],
       "edit": [
         [
           {
-            "name": "sub_heading",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "what_makes_different_heading",
+            "name": "full_name",
             "size": 6
           },
           {
-            "name": "service_heading",
+            "name": "email_address",
             "size": 6
           }
         ],
         [
           {
-            "name": "home_service",
+            "name": "mobile_number",
+            "size": 6
+          },
+          {
+            "name": "city",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "message",
             "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "full_name",
+        "email_address",
+        "mobile_number"
       ]
     }
   },

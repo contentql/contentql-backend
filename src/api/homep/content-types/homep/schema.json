@@ -12,10 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "services": {
+    "sub_heading": {
+      "type": "string"
+    },
+    "what_makes_different_heading": {
+      "type": "string"
+    },
+    "service_heading": {
+      "type": "string"
+    },
+    "home_service": {
+      "displayName": "home_service",
       "type": "component",
       "repeatable": true,
-      "component": "service.services"
+      "component": "home-service.home-service"
     }
   }
 }

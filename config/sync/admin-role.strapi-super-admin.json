@@ -229,7 +229,9 @@
           "branches.call_us",
           "branches.mail_us",
           "branches.location",
-          "branches.address"
+          "branches.address",
+          "faqs.question",
+          "faqs.answer"
         ]
       },
       "conditions": []
@@ -256,7 +258,9 @@
           "branches.call_us",
           "branches.mail_us",
           "branches.location",
-          "branches.address"
+          "branches.address",
+          "faqs.question",
+          "faqs.answer"
         ]
       },
       "conditions": []
@@ -271,7 +275,54 @@
           "branches.call_us",
           "branches.mail_us",
           "branches.location",
-          "branches.address"
+          "branches.address",
+          "faqs.question",
+          "faqs.answer"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::general.general",
+      "properties": {
+        "fields": [
+          "address",
+          "contact_number"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::general.general",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::general.general",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::general.general",
+      "properties": {
+        "fields": [
+          "address",
+          "contact_number"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::general.general",
+      "properties": {
+        "fields": [
+          "address",
+          "contact_number"
         ]
       },
       "conditions": []
@@ -281,11 +332,11 @@
       "subject": "api::homep.homep",
       "properties": {
         "fields": [
-          "services.servicesList.title",
-          "services.servicesList.description",
-          "services.servicesList.long_description",
-          "services.title",
-          "services.description"
+          "sub_heading",
+          "what_makes_different_heading",
+          "service_heading",
+          "home_service.title",
+          "home_service.description"
         ]
       },
       "conditions": []
@@ -307,11 +358,11 @@
       "subject": "api::homep.homep",
       "properties": {
         "fields": [
-          "services.servicesList.title",
-          "services.servicesList.description",
-          "services.servicesList.long_description",
-          "services.title",
-          "services.description"
+          "sub_heading",
+          "what_makes_different_heading",
+          "service_heading",
+          "home_service.title",
+          "home_service.description"
         ]
       },
       "conditions": []
@@ -321,11 +372,65 @@
       "subject": "api::homep.homep",
       "properties": {
         "fields": [
-          "services.servicesList.title",
-          "services.servicesList.description",
-          "services.servicesList.long_description",
-          "services.title",
-          "services.description"
+          "sub_heading",
+          "what_makes_different_heading",
+          "service_heading",
+          "home_service.title",
+          "home_service.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::message.message",
+      "properties": {
+        "fields": [
+          "full_name",
+          "email_address",
+          "mobile_number",
+          "city",
+          "message"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::message.message",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::message.message",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::message.message",
+      "properties": {
+        "fields": [
+          "full_name",
+          "email_address",
+          "mobile_number",
+          "city",
+          "message"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::message.message",
+      "properties": {
+        "fields": [
+          "full_name",
+          "email_address",
+          "mobile_number",
+          "city",
+          "message"
         ]
       },
       "conditions": []
@@ -440,6 +545,54 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::statistic.statistic",
+      "properties": {
+        "fields": [
+          "heading",
+          "statistics.growth_value",
+          "statistics.growth_description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::statistic.statistic",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::statistic.statistic",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::statistic.statistic",
+      "properties": {
+        "fields": [
+          "heading",
+          "statistics.growth_value",
+          "statistics.growth_description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::statistic.statistic",
+      "properties": {
+        "fields": [
+          "heading",
+          "statistics.growth_value",
+          "statistics.growth_description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::team-member.team-member",
       "properties": {
         "fields": [
@@ -539,6 +692,96 @@
           "testimonial.ratingNumber",
           "testimonial.review",
           "testimonial.thumbnail"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::what-makes-different.what-makes-different",
+      "properties": {
+        "fields": [
+          "card_data.title",
+          "card_data.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::what-makes-different.what-makes-different",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::what-makes-different.what-makes-different",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::what-makes-different.what-makes-different",
+      "properties": {
+        "fields": [
+          "card_data.title",
+          "card_data.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::what-makes-different.what-makes-different",
+      "properties": {
+        "fields": [
+          "card_data.title",
+          "card_data.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::who-are-we.who-are-we",
+      "properties": {
+        "fields": [
+          "heading",
+          "sub_heading"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::who-are-we.who-are-we",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::who-are-we.who-are-we",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::who-are-we.who-are-we",
+      "properties": {
+        "fields": [
+          "heading",
+          "sub_heading"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::who-are-we.who-are-we",
+      "properties": {
+        "fields": [
+          "heading",
+          "sub_heading"
         ]
       },
       "conditions": []

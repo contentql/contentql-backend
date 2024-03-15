@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::homep.homep",
+  "key": "plugin_content_manager_configuration_content_types::api::who-are-we.who-are-we",
   "value": {
-    "uid": "api::homep.homep",
+    "uid": "api::who-are-we.who-are-we",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "id",
-      "defaultSortBy": "id",
+      "mainField": "heading",
+      "defaultSortBy": "heading",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -16,6 +16,20 @@
         "edit": {},
         "list": {
           "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "heading": {
+        "edit": {
+          "label": "heading",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "heading",
           "searchable": true,
           "sortable": true
         }
@@ -32,48 +46,6 @@
           "label": "sub_heading",
           "searchable": true,
           "sortable": true
-        }
-      },
-      "what_makes_different_heading": {
-        "edit": {
-          "label": "what_makes_different_heading",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "what_makes_different_heading",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "service_heading": {
-        "edit": {
-          "label": "service_heading",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "service_heading",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "home_service": {
-        "edit": {
-          "label": "home_service",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "home_service",
-          "searchable": false,
-          "sortable": false
         }
       },
       "createdAt": {
@@ -138,31 +110,19 @@
     "layouts": {
       "list": [
         "id",
-        "createdAt",
-        "updatedAt",
-        "createdBy"
+        "heading",
+        "sub_heading",
+        "createdAt"
       ],
       "edit": [
         [
           {
-            "name": "sub_heading",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "what_makes_different_heading",
+            "name": "heading",
             "size": 6
           },
           {
-            "name": "service_heading",
+            "name": "sub_heading",
             "size": 6
-          }
-        ],
-        [
-          {
-            "name": "home_service",
-            "size": 12
           }
         ]
       ]

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "who_are_wes",
+  "info": {
+    "singularName": "who-are-we",
+    "pluralName": "who-are-wes",
+    "displayName": "Who are we"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sub_heading": {
+      "type": "string"
+    }
+  }
+}

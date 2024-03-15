@@ -1,7 +1,7 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::homep.homep",
+  "key": "plugin_content_manager_configuration_content_types::api::what-makes-different.what-makes-different",
   "value": {
-    "uid": "api::homep.homep",
+    "uid": "api::what-makes-different.what-makes-different",
     "settings": {
       "bulkable": true,
       "filterable": true,
@@ -20,58 +20,16 @@
           "sortable": true
         }
       },
-      "sub_heading": {
+      "card_data": {
         "edit": {
-          "label": "sub_heading",
+          "label": "card_data",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "sub_heading",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "what_makes_different_heading": {
-        "edit": {
-          "label": "what_makes_different_heading",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "what_makes_different_heading",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "service_heading": {
-        "edit": {
-          "label": "service_heading",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "service_heading",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "home_service": {
-        "edit": {
-          "label": "home_service",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "home_service",
+          "label": "card_data",
           "searchable": false,
           "sortable": false
         }
@@ -139,29 +97,12 @@
       "list": [
         "id",
         "createdAt",
-        "updatedAt",
-        "createdBy"
+        "card_data"
       ],
       "edit": [
         [
           {
-            "name": "sub_heading",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "what_makes_different_heading",
-            "size": 6
-          },
-          {
-            "name": "service_heading",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "home_service",
+            "name": "card_data",
             "size": 12
           }
         ]

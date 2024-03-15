@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "what_makes_differents",
+  "info": {
+    "singularName": "what-makes-different",
+    "pluralName": "what-makes-differents",
+    "displayName": "WhatMakesDifferent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "card_data": {
+      "displayName": "card_data",
+      "type": "component",
+      "repeatable": true,
+      "component": "card-data.card-data"
+    }
+  }
+}
