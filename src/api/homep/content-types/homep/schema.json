@@ -15,9 +15,6 @@
     "sub_heading": {
       "type": "string"
     },
-    "fact_heading": {
-      "type": "string"
-    },
     "what_makes_different_heading": {
       "type": "string"
     },

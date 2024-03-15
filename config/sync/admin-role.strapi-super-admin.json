@@ -287,11 +287,11 @@
       "subject": "api::homep.homep",
       "properties": {
         "fields": [
-          "services.servicesList.title",
-          "services.servicesList.description",
-          "services.servicesList.long_description",
-          "services.title",
-          "services.description"
+          "sub_heading",
+          "what_makes_different_heading",
+          "service_heading",
+          "home_service.title",
+          "home_service.description"
         ]
       },
       "conditions": []
@@ -313,11 +313,11 @@
       "subject": "api::homep.homep",
       "properties": {
         "fields": [
-          "services.servicesList.title",
-          "services.servicesList.description",
-          "services.servicesList.long_description",
-          "services.title",
-          "services.description"
+          "sub_heading",
+          "what_makes_different_heading",
+          "service_heading",
+          "home_service.title",
+          "home_service.description"
         ]
       },
       "conditions": []
@@ -327,11 +327,11 @@
       "subject": "api::homep.homep",
       "properties": {
         "fields": [
-          "services.servicesList.title",
-          "services.servicesList.description",
-          "services.servicesList.long_description",
-          "services.title",
-          "services.description"
+          "sub_heading",
+          "what_makes_different_heading",
+          "service_heading",
+          "home_service.title",
+          "home_service.description"
         ]
       },
       "conditions": []

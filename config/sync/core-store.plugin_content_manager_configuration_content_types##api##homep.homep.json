@@ -20,16 +20,58 @@
           "sortable": true
         }
       },
-      "services": {
+      "sub_heading": {
         "edit": {
-          "label": "services",
+          "label": "sub_heading",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "services",
+          "label": "sub_heading",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "what_makes_different_heading": {
+        "edit": {
+          "label": "what_makes_different_heading",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "what_makes_different_heading",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "service_heading": {
+        "edit": {
+          "label": "service_heading",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "service_heading",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "home_service": {
+        "edit": {
+          "label": "home_service",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "home_service",
           "searchable": false,
           "sortable": false
         }
@@ -103,7 +145,23 @@
       "edit": [
         [
           {
-            "name": "services",
+            "name": "sub_heading",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "what_makes_different_heading",
+            "size": 6
+          },
+          {
+            "name": "service_heading",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "home_service",
             "size": 12
           }
         ]
