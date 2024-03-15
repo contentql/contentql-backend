@@ -383,6 +383,60 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::message.message",
+      "properties": {
+        "fields": [
+          "full_name",
+          "email_address",
+          "mobile_number",
+          "city",
+          "message"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::message.message",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::message.message",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::message.message",
+      "properties": {
+        "fields": [
+          "full_name",
+          "email_address",
+          "mobile_number",
+          "city",
+          "message"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::message.message",
+      "properties": {
+        "fields": [
+          "full_name",
+          "email_address",
+          "mobile_number",
+          "city",
+          "message"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::pricing.pricing",
       "properties": {
         "fields": [
@@ -638,6 +692,51 @@
           "testimonial.ratingNumber",
           "testimonial.review",
           "testimonial.thumbnail"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::what-makes-different.what-makes-different",
+      "properties": {
+        "fields": [
+          "card_data.title",
+          "card_data.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::what-makes-different.what-makes-different",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::what-makes-different.what-makes-different",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::what-makes-different.what-makes-different",
+      "properties": {
+        "fields": [
+          "card_data.title",
+          "card_data.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::what-makes-different.what-makes-different",
+      "properties": {
+        "fields": [
+          "card_data.title",
+          "card_data.description"
         ]
       },
       "conditions": []

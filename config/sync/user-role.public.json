@@ -28,6 +28,9 @@
       "action": "api::homep.homep.find"
     },
     {
+      "action": "api::message.message.create"
+    },
+    {
       "action": "api::pricing.pricing.find"
     },
     {
@@ -41,6 +44,9 @@
     },
     {
       "action": "api::testimonial.testimonial.find"
+    },
+    {
+      "action": "api::what-makes-different.what-makes-different.find"
     },
     {
       "action": "api::who-are-we.who-are-we.find"
