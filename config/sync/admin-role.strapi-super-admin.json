@@ -284,6 +284,51 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::general.general",
+      "properties": {
+        "fields": [
+          "address",
+          "contact_number"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::general.general",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::general.general",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::general.general",
+      "properties": {
+        "fields": [
+          "address",
+          "contact_number"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::general.general",
+      "properties": {
+        "fields": [
+          "address",
+          "contact_number"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::homep.homep",
       "properties": {
         "fields": [
@@ -446,6 +491,54 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::statistic.statistic",
+      "properties": {
+        "fields": [
+          "heading",
+          "statistics.growth_value",
+          "statistics.growth_description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::statistic.statistic",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::statistic.statistic",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::statistic.statistic",
+      "properties": {
+        "fields": [
+          "heading",
+          "statistics.growth_value",
+          "statistics.growth_description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::statistic.statistic",
+      "properties": {
+        "fields": [
+          "heading",
+          "statistics.growth_value",
+          "statistics.growth_description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::team-member.team-member",
       "properties": {
         "fields": [
@@ -545,6 +638,51 @@
           "testimonial.ratingNumber",
           "testimonial.review",
           "testimonial.thumbnail"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::who-are-we.who-are-we",
+      "properties": {
+        "fields": [
+          "heading",
+          "sub_heading"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::who-are-we.who-are-we",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::who-are-we.who-are-we",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::who-are-we.who-are-we",
+      "properties": {
+        "fields": [
+          "heading",
+          "sub_heading"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::who-are-we.who-are-we",
+      "properties": {
+        "fields": [
+          "heading",
+          "sub_heading"
         ]
       },
       "conditions": []

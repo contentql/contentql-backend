@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::statistics.statistics",
+  "value": {
+    "uid": "statistics.statistics",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "growth_value",
+      "defaultSortBy": "growth_value",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "growth_value": {
+        "edit": {
+          "label": "growth_value",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "growth_value",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "growth_description": {
+        "edit": {
+          "label": "growth_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "growth_description",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "growth_value",
+        "growth_description"
+      ],
+      "edit": [
+        [
+          {
+            "name": "growth_value",
+            "size": 6
+          },
+          {
+            "name": "growth_description",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

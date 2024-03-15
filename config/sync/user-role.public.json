@@ -22,6 +22,9 @@
       "action": "api::contact.contact.find"
     },
     {
+      "action": "api::general.general.find"
+    },
+    {
       "action": "api::homep.homep.find"
     },
     {
@@ -31,10 +34,16 @@
       "action": "api::service.service.find"
     },
     {
+      "action": "api::statistic.statistic.find"
+    },
+    {
       "action": "api::team-member.team-member.find"
     },
     {
       "action": "api::testimonial.testimonial.find"
+    },
+    {
+      "action": "api::who-are-we.who-are-we.find"
     },
     {
       "action": "plugin::users-permissions.auth.callback"
