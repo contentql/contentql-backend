@@ -22,6 +22,9 @@
       "action": "api::contact.contact.find"
     },
     {
+      "action": "api::faq.faq.find"
+    },
+    {
       "action": "api::general.general.find"
     },
     {
