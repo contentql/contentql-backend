@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_author_authors",
+  "info": {
+    "displayName": "author",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "author_name": {
+      "type": "string"
+    },
+    "author_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -38,21 +38,10 @@
     "content": {
       "type": "richtext"
     },
-    "creator_name": {
-      "type": "string"
-    },
-    "read_time": {
-      "type": "string"
-    },
-    "creator_image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::author.author"
     }
   }
 }
