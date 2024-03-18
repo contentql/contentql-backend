@@ -1,7 +1,7 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::contact.contact",
+  "key": "plugin_content_manager_configuration_content_types::api::faq.faq",
   "value": {
-    "uid": "api::contact.contact",
+    "uid": "api::faq.faq",
     "settings": {
       "bulkable": true,
       "filterable": true,
@@ -20,30 +20,16 @@
           "sortable": true
         }
       },
-      "heading": {
+      "faqs": {
         "edit": {
-          "label": "heading",
+          "label": "faqs",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "heading",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "branches": {
-        "edit": {
-          "label": "branches",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "branches",
+          "label": "faqs",
           "searchable": false,
           "sortable": false
         }
@@ -110,20 +96,14 @@
     "layouts": {
       "list": [
         "id",
+        "faqs",
         "createdAt",
-        "heading",
-        "branches"
+        "updatedAt"
       ],
       "edit": [
         [
           {
-            "name": "heading",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "branches",
+            "name": "faqs",
             "size": 12
           }
         ]
