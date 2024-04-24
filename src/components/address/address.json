@@ -1,12 +1,19 @@
 {
   "collectionName": "components_address_addresses",
   "info": {
-    "displayName": "address"
+    "displayName": "address",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "address": {
+      "type": "text"
+    },
+    "country_code": {
       "type": "string"
+    },
+    "contact_number": {
+      "type": "biginteger"
     }
   }
 }

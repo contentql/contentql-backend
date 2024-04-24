@@ -12,17 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "contact_number": {
-      "type": "biginteger"
-    },
     "address": {
       "displayName": "address",
       "type": "component",
       "repeatable": true,
       "component": "address.address"
-    },
-    "country_code": {
-      "type": "string"
     }
   }
 }
