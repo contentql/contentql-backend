@@ -7,7 +7,7 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "address",
+      "mainField": "country_code",
       "defaultSortBy": "address",
       "defaultSortOrder": "ASC"
     },
@@ -16,20 +16,6 @@
         "edit": {},
         "list": {
           "label": "id",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "address": {
-        "edit": {
-          "label": "address",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "address",
           "searchable": true,
           "sortable": true
         }
@@ -44,6 +30,34 @@
         },
         "list": {
           "label": "contact_number",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "address": {
+        "edit": {
+          "label": "address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "address",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "country_code": {
+        "edit": {
+          "label": "country_code",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "country_code",
           "searchable": true,
           "sortable": true
         }
@@ -117,12 +131,20 @@
       "edit": [
         [
           {
-            "name": "address",
-            "size": 6
-          },
-          {
             "name": "contact_number",
             "size": 4
+          }
+        ],
+        [
+          {
+            "name": "address",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "country_code",
+            "size": 6
           }
         ]
       ]
