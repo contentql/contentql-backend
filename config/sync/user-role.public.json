@@ -7,6 +7,12 @@
       "action": "api::about.about.find"
     },
     {
+      "action": "api::author.author.find"
+    },
+    {
+      "action": "api::author.author.findOne"
+    },
+    {
       "action": "api::blog.blog.find"
     },
     {

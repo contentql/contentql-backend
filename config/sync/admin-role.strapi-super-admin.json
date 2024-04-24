@@ -59,6 +59,51 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::author.author",
+      "properties": {
+        "fields": [
+          "author_name",
+          "author_image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::author.author",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::author.author",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::author.author",
+      "properties": {
+        "fields": [
+          "author_name",
+          "author_image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::author.author",
+      "properties": {
+        "fields": [
+          "author_name",
+          "author_image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::blog.blog",
       "properties": {
         "fields": [
@@ -68,9 +113,7 @@
           "title",
           "excerpt",
           "content",
-          "creator_name",
-          "read_time",
-          "creator_image"
+          "author"
         ]
       },
       "conditions": []
@@ -98,9 +141,7 @@
           "title",
           "excerpt",
           "content",
-          "creator_name",
-          "read_time",
-          "creator_image"
+          "author"
         ]
       },
       "conditions": []
@@ -116,9 +157,7 @@
           "title",
           "excerpt",
           "content",
-          "creator_name",
-          "read_time",
-          "creator_image"
+          "author"
         ]
       },
       "conditions": []
